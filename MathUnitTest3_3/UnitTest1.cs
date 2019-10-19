@@ -53,6 +53,9 @@ namespace MathUnitTest3_3
             //Assert.That(result, Does.Contain(3));
             //Assert.That(result, Does.Contain(5));
             Assert.That(result, Is.EquivalentTo(new[] { 1, 3, 5 }));
+
+            //           Assert.That(result, Is.Ordered);
+            //            Assert.That(result, Is.Unique);
         }
     }
 }
