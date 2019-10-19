@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System.Linq;
 using Testing_Array_and_Collection3_3;
 
 namespace MathUnitTest3_3
@@ -39,6 +40,6 @@ namespace MathUnitTest3_3
 
             Assert.That(result, Is.EqualTo(expectedResult));
         }
-
+        
     }
 }
